@@ -1,0 +1,19 @@
+:root{
+    --primary-color : rgb(28, 72, 90);
+    --secondary-color : rgb(19, 51, 63);
+}
+body{
+    background-color: var(--primary-color);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    background-color: var(--secondary-color);
+    border: 0;
+    border-radius: 17px;
+    height: 50px;
+    width: 370px;
+    color: white;
+}
